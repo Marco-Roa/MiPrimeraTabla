@@ -101,10 +101,8 @@
 		F4E39B831F732FD9005A33C2 /* Mi Primera tabla */ = {
 			isa = PBXGroup;
 			children = (
-				F4E39B871F732FD9005A33C2 /* AppDelegate.h */,
-				F4E39B881F732FD9005A33C2 /* AppDelegate.m */,
-				F4E39B8A1F732FD9005A33C2 /* ViewController.h */,
-				F4E39B8B1F732FDA005A33C2 /* ViewController.m */,
+				F4E39BB71F732FDE005A33C2 /* Main */,
+				F4E39BB81F732FF2005A33C2 /* Controllers */,
 				F4E39B8D1F732FDA005A33C2 /* Main.storyboard */,
 				F4E39B901F732FDA005A33C2 /* Assets.xcassets */,
 				F4E39B921F732FDA005A33C2 /* LaunchScreen.storyboard */,
@@ -138,6 +136,24 @@
 				F4E39BAB1F732FDA005A33C2 /* Info.plist */,
 			);
 			path = "Mi Primera tablaUITests";
+			sourceTree = "<group>";
+		};
+		F4E39BB71F732FDE005A33C2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F4E39B881F732FD9005A33C2 /* AppDelegate.m */,
+				F4E39B871F732FD9005A33C2 /* AppDelegate.h */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		F4E39BB81F732FF2005A33C2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4E39B8B1F732FDA005A33C2 /* ViewController.m */,
+				F4E39B8A1F732FD9005A33C2 /* ViewController.h */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
