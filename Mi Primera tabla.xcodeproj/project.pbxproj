@@ -15,6 +15,9 @@
 		F4E39B941F732FDA005A33C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E39B921F732FDA005A33C2 /* LaunchScreen.storyboard */; };
 		F4E39B9F1F732FDA005A33C2 /* Mi_Primera_tablaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E39B9E1F732FDA005A33C2 /* Mi_Primera_tablaTests.m */; };
 		F4E39BAA1F732FDA005A33C2 /* Mi_Primera_tablaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E39BA91F732FDA005A33C2 /* Mi_Primera_tablaUITests.m */; };
+		F4E39BBD1F7336C2005A33C2 /* CellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E39BBB1F7336C2005A33C2 /* CellMainTable.m */; };
+		F4E39BBE1F7336C2005A33C2 /* CellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E39BBC1F7336C2005A33C2 /* CellMainTable.xib */; };
+		F4E39BC01F7338E8005A33C2 /* TyrionL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4E39BBF1F7338E7005A33C2 /* TyrionL.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		F4E39BA51F732FDA005A33C2 /* Mi Primera tablaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi Primera tablaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E39BA91F732FDA005A33C2 /* Mi_Primera_tablaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mi_Primera_tablaUITests.m; sourceTree = "<group>"; };
 		F4E39BAB1F732FDA005A33C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E39BBA1F7336C2005A33C2 /* CellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellMainTable.h; sourceTree = "<group>"; };
+		F4E39BBB1F7336C2005A33C2 /* CellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellMainTable.m; sourceTree = "<group>"; };
+		F4E39BBC1F7336C2005A33C2 /* CellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellMainTable.xib; sourceTree = "<group>"; };
+		F4E39BBF1F7338E7005A33C2 /* TyrionL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = TyrionL.jpg; path = ../../../Images/TyrionL.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +108,12 @@
 		F4E39B831F732FD9005A33C2 /* Mi Primera tabla */ = {
 			isa = PBXGroup;
 			children = (
+				F4E39BBF1F7338E7005A33C2 /* TyrionL.jpg */,
 				F4E39BB71F732FDE005A33C2 /* Main */,
 				F4E39BB81F732FF2005A33C2 /* Controllers */,
 				F4E39B8D1F732FDA005A33C2 /* Main.storyboard */,
 				F4E39B901F732FDA005A33C2 /* Assets.xcassets */,
+				F4E39BB91F733618005A33C2 /* Celdas */,
 				F4E39B921F732FDA005A33C2 /* LaunchScreen.storyboard */,
 				F4E39B951F732FDA005A33C2 /* Info.plist */,
 				F4E39B841F732FD9005A33C2 /* Supporting Files */,
@@ -154,6 +163,16 @@
 				F4E39B8A1F732FD9005A33C2 /* ViewController.h */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F4E39BB91F733618005A33C2 /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				F4E39BBA1F7336C2005A33C2 /* CellMainTable.h */,
+				F4E39BBB1F7336C2005A33C2 /* CellMainTable.m */,
+				F4E39BBC1F7336C2005A33C2 /* CellMainTable.xib */,
+			);
+			name = Celdas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +283,9 @@
 			files = (
 				F4E39B941F732FDA005A33C2 /* LaunchScreen.storyboard in Resources */,
 				F4E39B911F732FDA005A33C2 /* Assets.xcassets in Resources */,
+				F4E39BC01F7338E8005A33C2 /* TyrionL.jpg in Resources */,
 				F4E39B8F1F732FDA005A33C2 /* Main.storyboard in Resources */,
+				F4E39BBE1F7336C2005A33C2 /* CellMainTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +313,7 @@
 				F4E39B8C1F732FDA005A33C2 /* ViewController.m in Sources */,
 				F4E39B891F732FD9005A33C2 /* AppDelegate.m in Sources */,
 				F4E39B861F732FD9005A33C2 /* main.m in Sources */,
+				F4E39BBD1F7336C2005A33C2 /* CellMainTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
